@@ -15,9 +15,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ## Grading
 
 The following submissions are required for grading:
-1) A tidy data set as described below;
-2) A link to a GitHub repository with the script for performing the analysis;
-3) A code book (CodeBook.md) that describes the variables, the data, and any transformations or work that was performed to clean up the data;
-4) A README.md explaining how all of the scripts work and how they are connected.
+1. A tidy data set as described below;
+2. A link to a GitHub repository with the script for performing the analysis;
+3. A code book (CodeBook.md) that describes the variables, the data, and any transformations or work that was performed to clean up the data;
+4. A README.md explaining how all of the scripts work and how they are connected.
 
 
