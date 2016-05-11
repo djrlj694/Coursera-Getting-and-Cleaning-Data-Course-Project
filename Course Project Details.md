@@ -24,7 +24,7 @@ Create one R script called `run_analysis.R` that does the following:
 
 ## Grading
 
-The following submissions are required for grading:
+The student will be graded by peers on a series of yes/no questions related to the project. The following submissions are required for grading:
 
 1. A tidy data set as in **Instructions**;
 2. A link to a GitHub repository with the script for performing the analysis;
