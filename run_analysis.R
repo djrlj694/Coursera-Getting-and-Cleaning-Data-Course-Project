@@ -24,7 +24,7 @@
 # > setwd(<PROJECTROOT>)
 # > source(file.path(<CODEDIR>, "run_analysis.R"))
 #
-# EXAMPLE:
+# EXAMPLE: N/A
 #
 # DATE:      AUTHOR:  COMMENT:
 # 11MAY2016  RLJ      Initial creation.
