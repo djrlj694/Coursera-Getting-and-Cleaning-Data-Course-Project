@@ -1,4 +1,6 @@
-# Coursera: Getting and Cleaning Data Course Project
+Coursera: Getting and Cleaning Data Course Project
+
+# README
 
 The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
@@ -57,7 +59,7 @@ In addition, I have taken the liberty to create another documentation file:
 
 ## Protocol
 
-The steps below list operations executed by the analyst to create the tidy data set (`tidied.csv`):
+The steps below list operations executed by the analyst to create the tidy data set (`tidied.csv`).
 
 1. Create a folder tree for this project that includes 2 subfolders named as follows:
  * `code`: To contain any R source code files;

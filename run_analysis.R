@@ -17,7 +17,7 @@
 #
 # RETURNS: tidied.csv (output file)
 #
-# INSPIRATION(S): N/A
+# INSPIRATION(S): N/Anames
 #
 # NOTE:
 # To load this file, run the following:
@@ -123,8 +123,8 @@ print("Begin STEP 2.")
 
 extracts <- grepl("(mean|std)\\(\\)", features)
 
-# Keep the columns to be extract and the following column exceptions:
-# 1. "Subject ID" (column 1 of "merged")
+# Keep the columns for extraction and the following column exceptions:
+# 1. "Subject" (column 1 of "merged")
 # 2. "Activity"  (column 2 of "merged")
 
 extracts <- c(T, T, extracts)
