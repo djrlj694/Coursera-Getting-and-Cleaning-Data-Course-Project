@@ -17,7 +17,7 @@
 #
 # RETURNS: tidied.csv (output file)
 #
-# INSPIRATION(S): N/Anames
+# INSPIRATION(S): N/A
 #
 # NOTE:
 # To load this file, run the following:
@@ -165,7 +165,7 @@ factored[2] <- factors
 
 print("Begin STEP 5.")
 
-# Identify ID and measure columns.
+# Identify categorical (i.e. ID) and measure columns.
 
 colNames <- names(factored)
 ids <- colNames[1:2]
