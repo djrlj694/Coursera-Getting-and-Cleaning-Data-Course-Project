@@ -46,9 +46,9 @@ Data files that were available from the download but considered extraneous to th
 
 ### Target Data
 
-An R script, `run_analysis.R`, was created to consolidate and summarize the source data into a single target data set, `tidied.csv`.  The resulting output is a tidier version of the data that computes the mean for 66 of the 561 statistical features for each combination of subject and activity.  Each of the 66 extracted features corresponds to the mean or standard deviation for a particular cellphone accelerometer or gyroscope measurement.
+An R script, `run_analysis.R`, was created to consolidate and summarize the source data into a single target data set, `tidied.txt`.  The resulting output is a tidier version of the data that computes the mean for 66 of the 561 statistical features for each combination of subject and activity.  Each of the 66 extracted features corresponds to the mean or standard deviation for a particular cellphone accelerometer or gyroscope measurement.
 
-In the subsections that follow, note that the number preceding the variable denotes the variable's position within the CSV file.
+In the subsections that follow, note that the number preceding the variable denotes the variable's position within the TXT file.
 
 #### Categorical Variables
 
@@ -160,7 +160,7 @@ Body Angular Velocity Jerk (Gyroscope)
 
 ## ETL Algorithm
 
-The steps below list data processing operations -- collectively called extract, transform, load (ETL) in industry -- executed by the R script (`run_analysis.R`) to create the tidy data set (`tidied.csv`).
+The steps below list data processing operations -- collectively called extract, transform, load (ETL) in industry -- executed by the R script (`run_analysis.R`) to create the tidy data set (`tidied.txt`).
 
 1. Merge the training and the test sets to create one data set.
  1. Download data.
@@ -177,7 +177,7 @@ The steps below list data processing operations -- collectively called extract, 
 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
  1. Identify categorical (i.e., ID) and measure columns.
  2. Reshape data and compute mean (average).
- 3. Write tidy data set to a CSV file.
+ 3. Write tidy data set to a TXT file.
 
 ## References
 
