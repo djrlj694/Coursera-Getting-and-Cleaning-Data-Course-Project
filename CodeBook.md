@@ -170,11 +170,11 @@ The steps below list data processing operations -- collectively called extract, 
 2. Extract only the measurements on the mean and standard deviation for each measurement.
  1. Identify column names containing `mean()` or `std()`.
  2. Keep the columns for extraction and the following column exceptions: `Subject` and `Activity`.
-3. Uses descriptive activity names to name the activities in the data set.
+3. Use descriptive activity names to name the activities in the data set.
  1. Identify factor levels and labels.
  2. Create factors.
-4. Appropriately labels the data set with descriptive variable names.
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+4. Appropriately label the data set with descriptive variable names.
+5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
  1. Identify categorical (i.e., ID) and measure columns.
  2. Reshape data and compute mean (average).
  3. Write tidy data set to a CSV file.
