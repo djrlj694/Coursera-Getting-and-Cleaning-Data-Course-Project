@@ -176,7 +176,7 @@ measures <- colNames[-(1:2)]
 melted <- melt(factored, id=ids, measure.vars=measures)
 tidied <- dcast(melted, Subject + Activity ~ variable, mean)
 
-# Write tidy data set to a CSV file.
+# Write tidy data set to a TXT file.
 
-output <- file.path("data", "tidied.csv")
-write.csv(tidied, output, row.names=TRUE)
+output <- file.path("data", "tidied.txt")
+write.table(tidied, file=output, row.names=FALSE)

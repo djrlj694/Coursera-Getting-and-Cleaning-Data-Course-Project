@@ -44,7 +44,10 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ### Target Data
 
-The output of `run_analysis.R` is a single data set: `tidied.csv`. Other than conforming to the tidy data set described in step 5 of **Source Code**, no further requirements were specified for this file (e.g., its name).
+The output of `run_analysis.R` is a single data set: `tidied.csv`. In addition to conforming to the tidy data set described in step 5 of **Source Code**, other requirements for this file are as follows:
+
+* Save data set as a TXT file created with `write.table()` using `row.name=FALSE`;
+* Do not cut and paste the data set directly into the text box for submitting the course project deliverables; upload it as instructed from the [submission page](https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project/submit).
 
 ### Documentation
 
@@ -59,7 +62,7 @@ In addition, I have taken the liberty to create another documentation file:
 
 ## Protocol
 
-The steps below list operations executed by the analyst to create the tidy data set (`tidied.csv`).
+The steps below list operations executed by the analyst to create the tidy data set (`tidied.txt`).
 
 1. Create a folder tree for this project that includes 2 subfolders named as follows:
  * `code`: To contain any R source code files;
@@ -70,4 +73,4 @@ The steps below list operations executed by the analyst to create the tidy data 
  * *Example:* `setwd(<PROJECTROOT>)`.
 5. Run the R script.
  * *Example:* `source(file.path("code", "run_analysis.R"))`
-6. Validate the existence of `tidied.csv` inside `data`.
+6. Validate the existence of `tidied.txt` inside `data`.
