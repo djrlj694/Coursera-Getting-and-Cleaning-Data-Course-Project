@@ -44,7 +44,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ### Target Data
 
-The output of `run_analysis.R` is a single data set: `tidied.csv`. In addition to conforming to the tidy data set described in step 5 of **Source Code**, other requirements for this file are as follows:
+The output of `run_analysis.R` is a single data set: `tidied.txt`. In addition to conforming to the tidy data set described in step 5 of **Source Code**, other requirements for this file are as follows:
 
 * Save data set as a TXT file created with `write.table()` using `row.name=FALSE`;
 * Do not cut and paste the data set directly into the text box for submitting the course project deliverables; upload it as instructed from the [submission page](https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project/submit).
